@@ -1,13 +1,15 @@
+import java.sql.SQLOutput;
+
 public class Main {
-    public static void main(String[] args)
-    {   var firstboxersWight = 78.2;
+public static void main(String[] args) {
+        var firstboxersWight = 78.2;
         var secondboxersWight = 82.7;
         var fighters = firstboxersWight + secondboxersWight;
         System.out.println("Общий вес бойцов" + fighters);
-        var weightDifference =  secondboxersWight - firstboxersWight;
+        var weightDifference = secondboxersWight - firstboxersWight;
         System.out.println("Разница веса" + weightDifference);
         var divisionDelay = secondboxersWight / firstboxersWight;
-        System.out.println ("Остаток от деления" + divisionDelay);
+        System.out.println("Остаток от деления" + divisionDelay);
         var athleteWeight = (firstboxersWight + secondboxersWight) % divisionDelay;
         System.out.println("Разница деления" + athleteWeight);
         var openingHours = 640.0;
@@ -99,8 +101,8 @@ public class Main {
         int Masha = 67760;
         int Denis = 83690;
         int Kristina = 76230;
-        int year =  12;
-        int raisMasha = Masha/100*10;
+        int year = 12;
+        int raisMasha = Masha / 100 * 10;
         int moneyMasha = raisMasha + Masha;
         System.out.println("Маша зарплата +10%" + moneyMasha);
         int moneyMasha1 = moneyMasha * year;
@@ -109,7 +111,7 @@ public class Main {
         System.out.println("Зарплата Маши до повышения за год" + moneyMasha11);
         int differenceM = moneyMasha1 - moneyMasha11;
         System.out.println("Годовой доход Маши вырос на " + differenceM);
-        int raisDenis = Denis/100*10;
+        int raisDenis = Denis / 100 * 10;
         int moneyDenis = raisDenis + Denis;
         System.out.println("Дениса зарплата +10%" + moneyDenis);
         int moneyDenis1 = moneyDenis * year;
@@ -118,7 +120,7 @@ public class Main {
         System.out.println("Зарплата Дениса до повышения за год" + moneyDenis11);
         int differenceD = moneyDenis1 - moneyDenis11;
         System.out.println("Годовой доход Дениса вырос на " + differenceD);
-        int raisKristina = Kristina/100*10;
+        int raisKristina = Kristina / 100 * 10;
         int moneyKristina = raisKristina + Kristina;
         System.out.println("Кристина зарплата +10%" + moneyKristina);
         int moneyKristina1 = moneyKristina * year;
@@ -127,5 +129,133 @@ public class Main {
         System.out.println("Зарплата Кристины до повышения за год" + moneyKristina11);
         int differenceK = moneyKristina1 - moneyKristina11;
         System.out.println("Годовой доход Кристина вырос на " + differenceK);
+        int age1 = 23;
+        if (age1 >= 18) ;
+        {
+        }
+        System.out.println("С совершеннолетием");
+        if (age1 <= 18) ;
+        {
+        }
+        System.out.println("Совершеннолетие еще не наступило");
+        if (age1 >= 7) ;
+        {
+        }
+        System.out.println("Ребенок идет в школу когда ему исполнилось 7 лет и больше");
+        if (age1 >= 18) ;
+        {
+        }
+        System.out.println("Можно отправляться в универ");
+        if (age1 >= 24) ;
+        {
+        }
+        System.out.println("Первая работа");
+        int van = 102;
+        int sit = 60;
+        int stend = van - sit;
+        System.out.println("Стоячих мест" + stend);
+        if (sit <= 60) ;
+        {
+        }
+        System.out.println("Сидячие места");
+        if (stend < sit && stend < van) ;
+        {
+        }
+        System.out.println("Только стоячие места остались");
+
+        int age2 = 24;
+        if (age2 >= 18) {
+            System.out.println("С совершеннолетием");
+        } else if (age2 <= 18) {
+            System.out.println("Возраст совершеннолетия еще не наступил, надо подождать");
+        }
+        int vag1 = 102;
+        int seat1 = 60;
+        int stand1 = vag1 - sit1;
+        System.out.println("Стоячие места" + stand1);
+        int people = 105;
+        if (people <= sit ){
+            System.out.println("Есть сидячие места") {
+            } else if (people>=sit1 && people <= stand1){
+                System.out.println("Остались стоячие места");
+            } else if (people > 105);{
+                System.out.println("Мест нет вагон полность заполнен"); }
+            {
+
+        int age3 = 24;
+        if (age3 >= 7 && age3 < 18) {
+            System.out.println("Ребенок ходит в школу");
+        } else if (age3 >= 18 && age3 < 24) {
+            System.out.println("Ребенок может отправляться в университет");
+        } else if (age3 >= 24) {
+            System.out.println("Человек закончил университет и ему пора искать работу"); }
     }
-    }
+
+            int vag1 = 102;
+            int seat1 = 60;
+            int stand1 = vag1 - sit1;
+            System.out.println("Стоячие места" + stand1);
+            int people = 105;
+            if (people <= sit ) {
+                    System.out.println("Есть сидячие места") {
+                    } else if (people >= sit1 && people <= stand1) {
+                            System.out.println("Остались стоячие места");
+                    } else if (people > 105) ;
+                    {
+                            System.out.println("Мест нет вагон полность заполнен");
+                    }
+                    {
+
+                    }
+                    int age = 19;
+                    if (age >= 2 && age < 6) {
+                            System.out.println("Если возраст человека равен " + int
+                            +", то ему надо ходить в детский сад");
+                    } else if (age >= 7 && age < 18) {
+                            System.out.println("Если возраст человека равен " + int +", то ему надо ходить в школу");
+                    } else if (age >= 18 && <24){
+                            System.out.println("Если возраст человека равен " + int
+                            +", то ему надо ходить в университет");
+                    } else if (age > 24) {
+                            System.out.println("Если возраст человека равен " + int +", то ему надо ходить на работу");}
+                    }
+            }
+
+                   int small=4;
+                   int midl = 12;
+                   int older = 15;
+                   boolean smallChild = small<5;
+                   boolean midlChild = midl>5 &&midl <14;
+                   boolean teenager = older >14;
+                   if (smallChild){
+                   System.out.println("Если ребенку "+ smallChild" ребенок не может кататься на аттракционе");
+                   if (midlChild){
+                    System.out.println("Ребенок может кататься в сопровождении возрослого "+ midlChild" Если взрослого нет то кататься нельзя");
+                    if (teenager){
+                    System.out.println("Ребенок может кататься  "+ teenager" без сопровождения возрослых");
+                    }
+                   }
+
+                   int one = 20;
+                   int two = 14;
+                   int three = -2;
+                   if (one>two && one>three) {
+                   System.out.println("Число" + one + "больше чем" + two + "и больше чем" + three);
+                   }  else if (two > one && two > three) {
+                   System.out.println("Число" + two + "больше чем" + one + "и больше чем" + three);
+                   } else if (three > one && three > two){
+                   System.out.println ("Число" + three + "больше чем" + one + "и больше чем" + two);}
+                   }
+                   }
+                   }
+
+
+
+
+
+
+
+
+
+
+
