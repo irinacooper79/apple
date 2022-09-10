@@ -191,20 +191,19 @@ public static void main(String[] args) {
             System.out.println("Человек закончил университет и ему пора искать работу"); }
     }
 
-            int vag1 = 102;
-            int seat1 = 60;
-            int stand1 = vag1 - sit1;
-            System.out.println("Стоячие места" + stand1);
-            int people = 105;
-            if (people <= sit ) {
-                    System.out.println("Есть сидячие места") {
-                    } else if (people >= sit1 && people <= stand1) {
-                            System.out.println("Остались стоячие места");
-                    } else if (people > 105) ;
-                    {
-                            System.out.println("Мест нет вагон полность заполнен");
-                    }
-                    {
+        int vag1 = 102;
+        int seat1 = 60;
+        int stand1 = vag1 - sit1;
+        System.out.println("Стоячие места" + stand1);
+        int people = 105;
+        if (people <= sit ) {
+        System.out.println("Есть сидячие места") {
+        } else if (people >= sit1 && people <= stand1) {
+        System.out.println("Остались стоячие места");
+        } else if (people > 105) ;
+        {
+        System.out.println("Мест нет вагон полность заполнен");}
+        {
 
                     }
                     int age = 19;
@@ -232,8 +231,7 @@ public static void main(String[] args) {
                    if (midlChild){
                     System.out.println("Ребенок может кататься в сопровождении возрослого "+ midlChild" Если взрослого нет то кататься нельзя");
                     if (teenager){
-                    System.out.println("Ребенок может кататься  "+ teenager" без сопровождения возрослых");
-                    }
+                    System.out.println("Ребенок может кататься  "+ teenager" без сопровождения возрослых");}
                    }
 
                    int one = 20;
@@ -245,9 +243,81 @@ public static void main(String[] args) {
                    System.out.println("Число" + two + "больше чем" + one + "и больше чем" + three);
                    } else if (three > one && three > two){
                    System.out.println ("Число" + three + "больше чем" + one + "и больше чем" + two);}
+        }
                    }
-                   }
-                   }
+                   int clientOS = (0 II 1);
+                   if (clientOS == 1) {
+                   System.out.println("Установите версию приложения для IOS по ссылке");
+                   } else {
+                   System.out.println ("Установите версию приложения для Android по ссылке");}
+    }
+    }
+                   int clientDeviceYear = 2015;
+                   if (clientDeviceYear <= 2015){
+                   System.out.println("Установите облегченную версию приложения для IOS по ссылке");
+                   } else {
+                   System.out.println("Установите облегченную версию для Android по ссылке");}
+    }
+    }
+                  int year = 2021;
+                  if (year/4){
+                  System.out.println("Год является высокосным");
+                  } else if (year/100 && year/400);
+                  System.out.println("Год не ялвляется высокосным");}
+            }
+            }
+                  int deliveryDistance = 95;
+                  if (deliveryDistance <20){
+        System.out.println("Потребуется дней: 1 сутки");
+        } else if (deliveryDistance >=20 && <=60){
+        System.out.println("Потребуется дней: + 2 суток");
+        } else if (deliveryDistance >=60 && <=100){
+        System.out.println ("Потребуется дней: + 3 суток");}
+        }
+        }
+        int monthNumber = 12;
+        switch (monthNumber){
+        case 1:
+        System.out.println("Январь");
+        break;
+        case 2:
+        System.out.println("Февраль");
+        break;
+        case 3:
+        System.out.println("Март");
+        break;
+        case 4:
+        System.out.println("Апрель");
+        break;
+        case 5:
+        System.out.println("Май");
+        break;
+        case 6:
+        System.out.println("Июнь");
+        break;
+        case 7:
+        System.out.println("Июль");
+        break;
+        case 8:
+        System.out.println("Август");
+        break;
+        case 9:
+        System.out.println("Февраль");
+        break;
+        case 10:
+        System.out.println("Февраль");
+        break;
+        case 11:
+        System.out.println("Февраль");
+        break;
+        case 12:
+        System.out.println("Февраль");
+        break;
+        case 13:
+        System.out.println("Такого месяца не существует");
+        break;
+        }
+        }
 
 
 
